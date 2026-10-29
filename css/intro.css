@@ -1,8 +1,9 @@
 
 
 body{
-    margin: 5px;
+   
     position: relative;
+   margin: 0;
  
 
 }
@@ -15,10 +16,12 @@ body{
 
 
 #head-of-page{
+  
     height: 65px;
     display: flex;
     gap: 1%;
     border-bottom: 1px solid black;
+    background-color: rgb(58, 58, 244);
 
 }
 #icon-logo{
@@ -38,6 +41,7 @@ body{
 #icon-title{
     width: 10%;
     min-width: 80px;
+    color: aliceblue;
  
 }
 .m-shop{
@@ -71,14 +75,11 @@ body{
 
 .nav-header{
 text-decoration: none;
-color: black;
+color: white;
 
 
 }
-.nav-header:hover{
-    color: rgb(18, 14, 238);
-    border-bottom: 3px solid blue;
-}
+
 
 
 
@@ -238,14 +239,7 @@ justify-content: center;
     transform: translate(-4PX,-4PX)
 }
 
-#login{
-    background-color:blue;
-    color: white;
-            box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.2);
-             border: 10px solid blue;
-    border-radius: 10px;
 
-}
 #cateh1{
 
 margin-left: 40%;
